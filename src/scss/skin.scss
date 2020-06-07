@@ -1,0 +1,8 @@
+$scope: skin;
+
+@import "helpers/variables";
+@import "modules/mixin.scss";
+
+@import "original";
+
+@debug $skin-selectors;

@@ -1,0 +1,15 @@
+@mixin scope($scope) {
+    @if $scope == original {
+        @content;
+    }
+}
+
+@mixin export-selector($selector-key) {
+    $selector: quote(&);
+
+    $selector-map: (
+        $selector-key : $selector
+    );
+
+    $skin-selectors: map-merge($skin-selectors, $selector-map) !global;
+}

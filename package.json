@@ -1,0 +1,25 @@
+{
+  "name": "sass-share-variables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "node-sass src/scss/original.scss dist/css/original.css -w",
+    "watch:skin": "node-sass src/scss/skin.scss dist/css/skin.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe-meeup/sass-share-variables.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fe-meeup/sass-share-variables/issues"
+  },
+  "homepage": "https://github.com/fe-meeup/sass-share-variables#readme"
+}
